@@ -36,7 +36,7 @@ Start server by running the `nodemon` command.
 ## Links
 [Link to GitHub](https://github.com/mattholtmoore/nosql-social-network-api-project)  
 
-[Link to Walkthrough Capture](***ADD WALKTHROUGH VIDEO CAPTURE HERE***)
+[Link to Walkthrough Capture](https://watch.screencastify.com/v/KjH9gkaYyqwcCVIkFFBs)
 
 ***
 
