@@ -1,3 +1,5 @@
+// Due to issues with computer, MongoDB Atlas was required - per Instructor Anthony Cooper. 
+
 const { connect, connection } = require('mongoose');
 require('dotenv').config();
 
