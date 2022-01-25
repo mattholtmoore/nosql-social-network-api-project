@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/mattholtmoore/nosql-social-network-api-project#readme",
   "dependencies": {
+    "dotenv": "^14.3.0",
     "express": "^4.17.2",
     "mongoose": "^6.1.7"
   },

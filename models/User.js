@@ -1,5 +1,4 @@
 const { Schema, model } = require('mongoose');
-const { Thought } = require('.');
 
 // Schema to create User model
 const userSchema = new Schema(
@@ -15,7 +14,7 @@ const userSchema = new Schema(
       required: true,
       unique: true,
       validate: {
-        match: function (v) {
+        validator: function (v) {
           // Regex solution extracted from previous homework assignment as pertaining to email match
           return /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/.test(v);
         },
